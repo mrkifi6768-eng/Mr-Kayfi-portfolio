@@ -100,3 +100,47 @@ footer { padding: 40px; text-align: center; color: #475569; border-top: 1px soli
     .hero-text h1 { font-size: 2.8rem; }
     .nav-links { display: none; }
 }
+.whatsapp-btn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background: #25d366;
+    color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    z-index: 9999;
+    transition: 0.3s ease;
+}
+
+.whatsapp-btn:hover {
+    transform: scale(1.1) rotate(10deg);
+}
+.feedback-form {
+    max-width: 600px;
+    margin: 0 auto 50px auto;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.input-field {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 12px;
+    border-radius: 10px;
+    color: white;
+    outline: none;
+}
+
+.input-field:focus {
+    border-color: var(--primary);
+}
+
+#userMsg { height: 100px; resize: none; }
