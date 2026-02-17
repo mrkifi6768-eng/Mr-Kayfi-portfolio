@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+<a href="https://wa.me/923181816271" class="whatsapp-btn" target="_blank" aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
     <nav class="navbar">
         <div class="logo-container">
             <img src="logo.png" alt="Mr Kifayat Logo" class="site-logo" onerror="this.style.display='none'">
@@ -59,6 +61,7 @@
             </div>
         </div>
     </section>
+    
 
     <section id="services" class="services">
         <h2 class="section-title">My Professional Services</h2>
@@ -81,6 +84,22 @@
             </div>
         </div>
     </section>
+    <section id="feedback" class="testimonials">
+    <h2 class="section-title">Leave a Review</h2>
+    
+    <div class="feedback-form glass">
+        <input type="text" id="userName" placeholder="Your Name" class="input-field">
+        <textarea id="userMsg" placeholder="Your Feedback/Review" class="input-field"></textarea>
+        <button onclick="addFeedback()" class="btn-main">Post Review</button>
+    </div>
+
+    <div id="feedbackContainer" class="feedback-grid">
+        <div class="feedback-card glass">
+           
+            
+        </div>
+    </div>
+</section>
 
     <section id="portfolio" class="portfolio">
         <h2 class="section-title">Project Showcase</h2>
